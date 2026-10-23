@@ -22,33 +22,12 @@ console.log(typeof(bignumber));
 
 
 //Boolean - acts like a flag counter representing true or false
-is_online = true; 
+
 if(is_online){
     console.log("User is Online!");
+    is_online = false
 }
 else{
     console.log("User is Offline!");
+    is_online = true 
 }
-
-//Object - A Collection of key-value pair of data 
-
-const person = {firstName : "Jhon" , lastname : "doe"};
-console.log(person.firstName,person.lastname);
-const date = new Date().getFullYear();
-console.log(date);
-
-
-//Undefined - A Primitive variable with no assigned value 
-
-let x; 
-console.log(x)
-
-
-//Null - A Prmitive value representing object absence 
-x = null; 
-console.log(x);
-
-//Symbol - A Unique and primitive identifier
-
-let sym = Symbol();
-console.log(sym)
