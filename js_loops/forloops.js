@@ -16,3 +16,25 @@ for(let i = 0; i < 10; i++){
     counter++;
 }
 
+//for loop statement creates loop with 3 optinal expressions 
+/* for (expr1; expr2; expr3)
+    {
+    // Code block to be executed
+    } 
+
+exp1 is executed one time before the execution of the code
+exp2 defines the condition for executing the code block 
+exp3 is executed everytime the code block has been executed 
+
+
+*/
+
+//Loop scope 
+
+let i = 5 ;
+for(i = 0; i <= 10; ){
+    console.log(i); 
+    i++
+}
+
+console.log(i);
