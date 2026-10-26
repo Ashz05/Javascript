@@ -133,3 +133,13 @@ newtext = "Please visit Javascript, Please give ratings!";
 // replaceText = newtext.replace("Please","Do");
 replaceText = newtext.replaceAll("Please","Do"); //ES2021 
 console.log(replaceText);
+
+//String split() 
+//A String can be converted to an array with the split() 
+
+let summaryText = "Welcome , To JavaScript Course!";
+let spacedText = "Hi! Welcome!";
+
+// If the parameter is (""), the returned array will be an array of single characters:
+console.log(spacedText.split(" "));
+console.log(summaryText.split(","));
