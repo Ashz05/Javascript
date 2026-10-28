@@ -51,3 +51,57 @@ The search() method cannot take a second start position
 the indexOf() method cannot take powerful search values(regular expressions)
 */
 
+//The match() method returns an array containing the results of matching a string against a string 
+
+text = "The rain in SPAIN stays mainly in the plain"
+// console.log(text.match("ain"));
+
+//perform search for ain 
+console.log(text.match(/ain/));
+
+//perform global search for 'ain'; 
+console.log(text.match(/AIN/g));
+
+//perform a global, case-insensitive for "ain";
+console.log(text.match(/ain/gi));
+
+
+//String matchAll();
+/*The matchAll() method returns an iterator containing the results 
+of matching a string against a string(or a regular expression).
+*/
+text = "I love cats. Cats are very easy to love. Cats are very popular."
+// const iterator = text.matchAll("Cats");
+// const iterator = text.matchAll(/ains/g);
+const iterator = text.matchAll(/Cats/gi);
+
+
+//String includes();
+
+//The includes() method returns true if a string contains a specified value 
+//Otherwise it returns false 
+
+text = "Hello world, Welcome to the universe.";
+console.log(text.includes("hello"));
+
+//Check if a string includes "world". start at position 12:
+
+console.log(text.includes("world",12));
+
+
+//String startsWith();
+
+//The startsWith() method returns true, if a string begins with a specified value. 
+//otherwise it returns false
+
+console.log(text.startsWith("world")); //false 
+console.log(text.startsWith("rld",8));// startsWith is case sensitive 
+
+//String endsWith()
+
+/*The endsWith() method returns true if a string ends witu a specified value 
+otherwise it returns false. 
+*/
+
+text = "Jhon Doe"
+console.log(text.endsWith("Doe",8));
