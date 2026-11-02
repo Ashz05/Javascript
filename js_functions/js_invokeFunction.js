@@ -63,4 +63,6 @@ function greetUser(name){
 
 }
 
-console.log(greetUser("Mary"));
+console.log(greetUser("Mary"));//refers function result(prints result)
+console.log(greetUser); //refers function itself
+
