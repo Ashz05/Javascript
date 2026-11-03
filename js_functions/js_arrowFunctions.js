@@ -59,7 +59,7 @@ console.log(getName(""))
 
 const persona = {
     name : "Jhon",
-    greet : () => "Welcome " + this.//undefined 
+    greet : () => "Welcome " + this.name //undefined 
 }
 
 const person = {
