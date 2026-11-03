@@ -21,4 +21,4 @@ console.log(findMax(10,200,101,300,350,340,50));
 //shorted syntax :
 /*
 If the function body contains only one statement:
-you can remove the word function, the curly brackets and the return keyword;
+you can remove the word function, the curly brackets and the return keyword; */ 
