@@ -34,3 +34,25 @@ const personCheckProperty = {
 }
 
 console.log(personCheckProperty);
+
+//Nested Objects
+
+//Property values in an object can be other object 
+
+const persona = { 
+    name : "Jhon",
+    age : 45,
+    myCars : {
+        car1 : "BMW",
+        car2 : "Ford",
+        car3 : "Audi"
+    },
+    address : "4th Clover Riston Street "
+}
+
+console.log(persona);
+
+//accessing nested objects
+console.log(persona.myCars.car1);//only Dot notation
+console.log(persona["myCars"]["car2"]);//only bracket notation
+console.log(persona["myCars"].car3); //Both Dot and Bracket notation  
