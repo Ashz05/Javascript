@@ -103,5 +103,5 @@ console.log(text.startsWith("rld",8));// startsWith is case sensitive
 otherwise it returns false. 
 */
 
-text = "Jhon Doe"
-console.log(text.endsWith("Doe",8));
+
+

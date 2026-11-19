@@ -143,3 +143,18 @@ let spacedText = "Hi! Welcome!";
 // If the parameter is (""), the returned array will be an array of single characters:
 console.log(spacedText.split(" "));
 console.log(summaryText.split(","));
+
+text = "Jhon Doe";
+console.log(text.endsWith("Doe",8));
+
+/*String split() using split can be unsafe for strings containing emojis or complex character 
+The method splits by UTF-16 code units and will break surrogate pairs.
+split("") always unsafe for emoji.
+*/
+
+let spiltValue = text.split(" ");
+console.log(spiltValue); 
+
+let emojiValue = "👨‍👩‍👧‍👦 🧑‍⚕️"; //it splits the emojis. if it is a simple emoji it works fine. 
+spiltValue = emojiValue.split(" ");
+console.log(emojiValue);
