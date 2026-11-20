@@ -24,6 +24,8 @@ class Employee{
     }
 
 }
+
+
 let employee1 = new Employee(10102, "Jhon Kendy", "Software Developer", 4);
 
 employee1.e_name = "Markus brownly";
